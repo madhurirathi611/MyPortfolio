@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Madhuri's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+ <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="Image/favicon.jpeg">
+  <link rel="icon" type="image/jpeg" sizes="16x16" href="Image/favicon.jpeg">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="description" content="portfolio of Madhuri Mall who is a front-end developer">
+  <meta name="keywords" content="personal information, profession, education, projects">
+  <meta name="author" content="Madhuri Mall">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="application-name" content="Madhuri Mall portfolio">
+</head>
+
+<body onload="initializeNavBav()">
+  <header class="header">
+    <nav>
+      <div class="logo">
+        <a href="index.html">Madhuri Mall Rathi</a>
+      </div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul id="menu-ul" class="menu">
+        <li><a onclick="changeNavBar(0)" href="index.html">Home</a></li>
+        <li><a onclick="changeNavBar(1)" href="#about" >About</a></li>
+        <li><a onclick="changeNavBar(2)" href="#experience">Experience</a></li>
+        <li><a class="btn-main" href="mailto:madhurirathi611@gmail.com">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="home-section" id="home">
+      <h1>👋 Hey, I'm Madhuri Mall Rathi</h1>
+      <h2>I'm an enthusiastic Front-End Developer in the exciting world of web development.</h2> 
+        <h2>My passion lies in crafting dynamic user interfaces using HTML5, CSS3, JavaScript, Bootstrap and React.</h2>
+      <img src="Image/coder_girl.png" alt="image of q women developer">
+    </section>
+    <h2 id="about">About me</h2>
+    <section class="about-section">
+      <div class="about-container">
+        <div>
+          <h3>Who I am?</h3>
+          <p>I am a passionate<strong> Front End Developer</strong> with a ability for crafting dynamic, responsive, and user-centric web UI applications using modern frameworks.
+            <strong><a href="https://github.com/madhurirathi611">Github</a></strong>.
+          </p>
+          <p>💻 I'm all about creating responsive, user-friendly web applications that perform seamlessly across diverse browsers. 
+            My toolkit includes modern front-end frameworks like ReactJS and NodeJS, and I navigate the coding world with a strong grasp of Git version control and Agile methodologies. 
+            I thrive in environments where problem-solving and troubleshooting complex issues are part of the daily routine.</p>
+          <p>My skill set empowers me to design, develop, debug, and test applications that resonate with end users. I have a solid understanding of object-oriented programming (OOP) principles, which allows me to create clean and maintainable code.</p>
+          <p>In addition to my technical skills, I have excellent problem-solving and communication skills, which enable me to work effectively with clients, stakeholders, and team members</p>
+          <p>Let's connect and explore opportunities where I can contribute to your projects and help bring your web development goals to life! 💻🚀
+            <strong><a href="https://www.linkedin.com/in/madhuri-mall-0611/">LinkedIn</a></strong>
+          </p>
+        </div>
+        <div>
+          <h3>🔧 My Technical Toolbox</h3>
+          <div class="skill-container">
+            <span class="skill-element">HTML5</span>
+            <span class="skill-element">CSS3</span>
+            <span class="skill-element">JavaScript</span>
+            <span class="skill-element">ES6</span>
+            <span class="skill-element">ReactJS</span>
+            <span class="skill-element">React-Bootstrap</span>
+            <span class="skill-element">Material UI</span>
+            <span class="skill-element">NodeJS</span>
+            <span class="skill-element">MongoDB</span>
+            <span class="skill-element">OOP</span>
+            <span class="skill-element">Agile Methodology</span>
+            <span class="skill-element">Jira</span>
+            <span class="skill-element">Git</span>
+            <span class="skill-element">GitHub</span>
+            <span class="skill-element">CICD</span>
+            <span class="skill-element">Visual Studio</span>
+            <span class="skill-element">Postman</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h2 id="experience">Experience & Education</h2>
+    <section class="experience-section">
+      <div id="experience-container">
+        <ul class="timeline">
+          <li class="event-container" data-date="Feb 2021 - Jun 2023">
+            <h3>Front End Developer | <a href="https://www.zestindiait.com/" target="_blank">Zest India It Sevices <i
+                  class="fa-solid fa-link"></i></a></h3>
+            <div class="project">
+              <ul>
+                <li>Developed functional front-end web applications using ReactJS, Bootstrap, HTML5, and CSS3,
+                  with a scalable NodeJS backend for an effective and user-friendly UI.</li>
+                <li>Created responsive layouts using CSS Grid and Flexbox to ensure a consistent user experience
+                  across different screen sizes and devices.</li>
+                <li>Collaborated with back-end developers to integrate JWT-based user authentication for secure
+                  access to user accounts.</li>
+                <li>Conducted UI testing and debugging to ensure reliability and optimal performance across various
+                  browsers and devices.
+                </li>
+                <li>Maintained effective communication and collaboration within the project team using GitHub,
+                  following Agile methodology to meet the project's scope and sponsor requirements.
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="event-container" data-date="Dec 2019 - Jan 2021">
+            <h3>Web Developer | <a href="https://www.zestindiait.com/" target="_blank">Zest India It Services <i
+                  class="fa-solid fa-link"></i></a></h3>
+            <div class="project">
+              <ul>
+                <li>Designed, constructed, and maintained efficient, reusable, and reliable code, incorporating
+                  concepts like Hooks for creating Functional Components and managing state.</li>
+                <li>Developed websites, portals, and large-scale web applications for diverse clients using React.js to
+                  meet their specific needs.</li>
+                <li>Implemented modern software design techniques, including asynchronous programming,
+                  closures, type systems, and ES6.</li>
+                <li>Managed packages using NPM and maintained version control with Git.</li>
+                <li>Integrated third-party APIs like keycloak, google maps,etc,. and services into web applications to
+                  enhance functionality.</li>
+                <li>Actively participated in Scrum meetings to discuss development and operational updates, and develope solutions to
+                  fulfill business requirements.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="event-container" data-date="Dec 2015 - Jun 2019">
+            <h3>Assistant Professor | <a href="https://www.pict.edu/" target="_blank"> Pune Institute of Computer Technology <i class="fa-solid fa-link"></i></a>
+            </h3>
+            <div class="project">
+              <ul>
+                <li>Coordinated and mentored computer science engineering students in web technologies and object-oriented programming.</li>
+                <li>Supervised and served as an expert for university theory and practical examinations.</li>
+                <li>Acted as a committee member for NACC and NBA accreditation.</li>
+                <li>Organized various events, including alumni meet, convocations, and expert talks on emerging
+                  technologies.</li>
+                <li>Served as a managing member and web chair for the international conference ICEI-2018.</li>
+                <li>Published a paper titled "Aspect Mining Model in Support of Drug Reviews" in the International
+                  Journal of Emerging Technology and Advanced Engineering.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="event-container" data-date="2015">
+            <h3>Master of Engineering </h3>
+            <div class="project">
+              <ul>
+                <li>Field: Computer Science and Engineering</li>
+                <li>Institute: Government College of Engineering – Aurangabad, India</li>
+                <li>Grade: Distinction</li>
+              </ul>
+            </div>
+          </li>
+          <li class="event-container" data-date="2013">
+            <h3>Bachelor Student </h3>
+            <div class="project">
+              <ul>
+                <li>Field: Computer Science and Engineering</li>
+                <li>Institute: SSGMCE - Shegaon, India</li>
+                <li>Grade: First Class</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-right">
+        <a aria-label="github link" href="https://github.com/madhurimall611"><i
+            class="fa fa-github"></i></a>
+        <a aria-label="linked link" href="https://www.linkedin.com/in/madhuri-mall-0611"><i
+            class="fa fa-linkedin"></i></a>
+        <a aria-label="instagram link" href="#"><i class="fa fa-instagram"></i></a>
+        <a aria-label="twitter link" href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      <div class="footer-left">
+        <p class="footer-links">
+          <a class="link-1" href="#index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#">Experience</a>
+          <a href="#">Project</a>
+          <a href="mailto:madhurirathi611@gmail.com">Connent With Me!</a>
+        </p>
+
+        <p>Madhuri Mall &copy; 2023</p>
+      </div>
+
+    </footer>
+  </main>
+  <script src="https://kit.fontawesome.com/b2ee44e49f.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
